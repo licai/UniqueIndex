@@ -14,21 +14,10 @@
 		FAB01FAF1A7A17A800BE25DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB01FAD1A7A17A800BE25DB /* Main.storyboard */; };
 		FAB01FB11A7A17A800BE25DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB01FB01A7A17A800BE25DB /* Images.xcassets */; };
 		FAB01FB41A7A17A800BE25DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB01FB21A7A17A800BE25DB /* LaunchScreen.xib */; };
-		FAB01FC01A7A17A800BE25DB /* MyCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB01FBF1A7A17A800BE25DB /* MyCoreDataTests.m */; };
 		FAB01FCF1A7A1A6F00BE25DB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB01FCE1A7A1A6F00BE25DB /* Person.m */; };
 		FAB01FDB1A7A345D00BE25DB /* Unique.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB01FDA1A7A345D00BE25DB /* Unique.m */; };
 		FAB01FDE1A7A3CDC00BE25DB /* UniqueIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB01FDD1A7A3CDC00BE25DB /* UniqueIndex.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FAB01FBA1A7A17A800BE25DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAB01F951A7A17A800BE25DB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAB01F9C1A7A17A800BE25DB;
-			remoteInfo = MyCoreData;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FAB01F9D1A7A17A800BE25DB /* MyCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +31,6 @@
 		FAB01FAE1A7A17A800BE25DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB01FB01A7A17A800BE25DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAB01FB31A7A17A800BE25DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FAB01FB91A7A17A800BE25DB /* MyCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB01FBE1A7A17A800BE25DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAB01FBF1A7A17A800BE25DB /* MyCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCoreDataTests.m; sourceTree = "<group>"; };
 		FAB01FCD1A7A1A6F00BE25DB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		FAB01FCE1A7A1A6F00BE25DB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		FAB01FD91A7A345D00BE25DB /* Unique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unique.h; sourceTree = "<group>"; };
@@ -61,13 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB01FB61A7A17A800BE25DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				FAB01F9F1A7A17A800BE25DB /* MyCoreData */,
-				FAB01FBC1A7A17A800BE25DB /* MyCoreDataTests */,
 				FAB01F9E1A7A17A800BE25DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				FAB01F9D1A7A17A800BE25DB /* MyCoreData.app */,
-				FAB01FB91A7A17A800BE25DB /* MyCoreDataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,23 +88,6 @@
 			children = (
 				FAB01FA11A7A17A800BE25DB /* Info.plist */,
 				FAB01FA21A7A17A800BE25DB /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FAB01FBC1A7A17A800BE25DB /* MyCoreDataTests */ = {
-			isa = PBXGroup;
-			children = (
-				FAB01FBF1A7A17A800BE25DB /* MyCoreDataTests.m */,
-				FAB01FBD1A7A17A800BE25DB /* Supporting Files */,
-			);
-			path = MyCoreDataTests;
-			sourceTree = "<group>";
-		};
-		FAB01FBD1A7A17A800BE25DB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FAB01FBE1A7A17A800BE25DB /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,24 +125,6 @@
 			productReference = FAB01F9D1A7A17A800BE25DB /* MyCoreData.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAB01FB81A7A17A800BE25DB /* MyCoreDataTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAB01FC61A7A17A800BE25DB /* Build configuration list for PBXNativeTarget "MyCoreDataTests" */;
-			buildPhases = (
-				FAB01FB51A7A17A800BE25DB /* Sources */,
-				FAB01FB61A7A17A800BE25DB /* Frameworks */,
-				FAB01FB71A7A17A800BE25DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAB01FBB1A7A17A800BE25DB /* PBXTargetDependency */,
-			);
-			name = MyCoreDataTests;
-			productName = MyCoreDataTests;
-			productReference = FAB01FB91A7A17A800BE25DB /* MyCoreDataTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,10 +136,6 @@
 				TargetAttributes = {
 					FAB01F9C1A7A17A800BE25DB = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					FAB01FB81A7A17A800BE25DB = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = FAB01F9C1A7A17A800BE25DB;
 					};
 				};
 			};
@@ -215,7 +153,6 @@
 			projectRoot = "";
 			targets = (
 				FAB01F9C1A7A17A800BE25DB /* MyCoreData */,
-				FAB01FB81A7A17A800BE25DB /* MyCoreDataTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,13 +165,6 @@
 				FAB01FAF1A7A17A800BE25DB /* Main.storyboard in Resources */,
 				FAB01FB41A7A17A800BE25DB /* LaunchScreen.xib in Resources */,
 				FAB01FB11A7A17A800BE25DB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAB01FB71A7A17A800BE25DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,23 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB01FB51A7A17A800BE25DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAB01FC01A7A17A800BE25DB /* MyCoreDataTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FAB01FBB1A7A17A800BE25DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAB01F9C1A7A17A800BE25DB /* MyCoreData */;
-			targetProxy = FAB01FBA1A7A17A800BE25DB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FAB01FAD1A7A17A800BE25DB /* Main.storyboard */ = {
@@ -389,40 +303,6 @@
 			};
 			name = Release;
 		};
-		FAB01FC71A7A17A800BE25DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MyCoreDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCoreData.app/MyCoreData";
-			};
-			name = Debug;
-		};
-		FAB01FC81A7A17A800BE25DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MyCoreDataTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCoreData.app/MyCoreData";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,14 +322,7 @@
 				FAB01FC51A7A17A800BE25DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FAB01FC61A7A17A800BE25DB /* Build configuration list for PBXNativeTarget "MyCoreDataTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAB01FC71A7A17A800BE25DB /* Debug */,
-				FAB01FC81A7A17A800BE25DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
