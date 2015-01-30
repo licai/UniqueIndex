@@ -16,7 +16,7 @@
 		FAB01FB41A7A17A800BE25DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB01FB21A7A17A800BE25DB /* LaunchScreen.xib */; };
 		FAB01FCF1A7A1A6F00BE25DB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB01FCE1A7A1A6F00BE25DB /* Person.m */; };
 		FAB01FDB1A7A345D00BE25DB /* Unique.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB01FDA1A7A345D00BE25DB /* Unique.m */; };
-		FAB01FDE1A7A3CDC00BE25DB /* UniqueIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB01FDD1A7A3CDC00BE25DB /* UniqueIndex.m */; };
+		FABF03F41A7B7ADC00919898 /* UniqueIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = FABF03F31A7B7ADC00919898 /* UniqueIndex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		FAB01FCE1A7A1A6F00BE25DB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		FAB01FD91A7A345D00BE25DB /* Unique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unique.h; sourceTree = "<group>"; };
 		FAB01FDA1A7A345D00BE25DB /* Unique.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unique.m; sourceTree = "<group>"; };
-		FAB01FDC1A7A3CDC00BE25DB /* UniqueIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueIndex.h; sourceTree = "<group>"; };
-		FAB01FDD1A7A3CDC00BE25DB /* UniqueIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueIndex.m; sourceTree = "<group>"; };
+		FABF03F21A7B7ADC00919898 /* UniqueIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueIndex.h; sourceTree = "<group>"; };
+		FABF03F31A7B7ADC00919898 /* UniqueIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueIndex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,7 @@
 		FAB01F9F1A7A17A800BE25DB /* MyCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				FABF03F11A7B7ADC00919898 /* UniqueIndex */,
 				FAB01FCC1A7A1A6F00BE25DB /* coredata */,
 				FAB01FA41A7A17A800BE25DB /* AppDelegate.h */,
 				FAB01FA51A7A17A800BE25DB /* AppDelegate.m */,
@@ -99,10 +100,18 @@
 				FAB01FDA1A7A345D00BE25DB /* Unique.m */,
 				FAB01FCD1A7A1A6F00BE25DB /* Person.h */,
 				FAB01FCE1A7A1A6F00BE25DB /* Person.m */,
-				FAB01FDC1A7A3CDC00BE25DB /* UniqueIndex.h */,
-				FAB01FDD1A7A3CDC00BE25DB /* UniqueIndex.m */,
 			);
 			path = coredata;
+			sourceTree = "<group>";
+		};
+		FABF03F11A7B7ADC00919898 /* UniqueIndex */ = {
+			isa = PBXGroup;
+			children = (
+				FABF03F21A7B7ADC00919898 /* UniqueIndex.h */,
+				FABF03F31A7B7ADC00919898 /* UniqueIndex.m */,
+			);
+			name = UniqueIndex;
+			path = ../../UniqueIndex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB01FDB1A7A345D00BE25DB /* Unique.m in Sources */,
-				FAB01FDE1A7A3CDC00BE25DB /* UniqueIndex.m in Sources */,
+				FABF03F41A7B7ADC00919898 /* UniqueIndex.m in Sources */,
 				FAB01FCF1A7A1A6F00BE25DB /* Person.m in Sources */,
 				FAB01FA61A7A17A800BE25DB /* AppDelegate.m in Sources */,
 				FAB01FA31A7A17A800BE25DB /* main.m in Sources */,
